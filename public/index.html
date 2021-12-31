@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body class="bg-main-bg">
-  <div class="canvas text-white bg-card-bg">
-    <img src="../images/image-equilibrium.jpg" class="image-eq md:rounded rounded-2xl" alt="">
-    <h1 class="text-red-400 font-heavy">Equilibrium #3429</h1>
-    <p>
-      Our Equilibrium collection promotes balance and calm.
-    </p>
-    <div>
-      <span class="text-cyan">
-        0.041 ETH
-      </span>
-      <span>
-        3 days left
-      </span>
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-main-bg p-10 md:p-40">
+    <div class="canvas text-white bg-card-bg w-full p-5 rounded-lg md:p-40">
+      <img
+        src="../images/image-equilibrium.jpg"
+        class="image-eq md:rounded rounded-2xl"
+        alt=""
+      />
+      <h1 class="text-red-400 font-heavy">Equilibrium #3429</h1>
+      <p class="text-soft_blue">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div>
+        <span class="text-cyan"> 0.041 ETH </span>
+        <span class="text-soft_blue"> 3 days left </span>
+      </div>
+      <span class="border-b-4 border-soft_blue w-44"></span>
+      <div class="w-16 flex">
+        <img src="../images/image-avatar.png" class="border-2 rounded-full " alt="" />
+        <strong class="text-soft_blue">Creation of</strong>
+        <h2 class="text-white">Jules Wyven</h2>
+      </div>
     </div>
-    <span></span>
-    <div>
-      <strong>Creation of</strong>
-      <h2>Jules Wyven</h2>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
     </div>
-  </div>
-
-
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </body>
 </html>
