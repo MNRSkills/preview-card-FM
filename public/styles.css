@@ -15238,6 +15238,10 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-Outfit{
+  font-family: Outfit, sans-serif;
+}
+
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
@@ -33146,6 +33150,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-Outfit{
+    font-family: Outfit, sans-serif;
+  }
+
   .sm\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -51004,6 +51012,10 @@ video {
 
   .md\:font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-Outfit{
+    font-family: Outfit, sans-serif;
   }
 
   .md\:text-xs{
@@ -68866,6 +68878,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-Outfit{
+    font-family: Outfit, sans-serif;
+  }
+
   .lg\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -86726,6 +86742,10 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-Outfit{
+    font-family: Outfit, sans-serif;
+  }
+
   .xl\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -104584,6 +104604,10 @@ video {
 
   .\32xl\:font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-Outfit{
+    font-family: Outfit, sans-serif;
   }
 
   .\32xl\:text-xs{

@@ -12,11 +12,14 @@ module.exports = {
       cyan: "hsl(178, 100%, 50%)",
     },
     extend: {
-      fontWeight:{
+      fontWeight: {
         light: "300",
-        midium:"400",
+        midium: "400",
         heavy: "600",
-      }
+      },
+      fontFamily: {
+        Outfit: ["Outfit", "sans-serif"],
+      },
     },
   },
   plugins: [],
