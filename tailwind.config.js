@@ -1,6 +1,10 @@
 module.exports = {
   content: [],
   theme: {
+    spacing: {
+      "desktop": "1440px",
+      "mobile": "375px",
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
